@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>3D House</title>
 </head>
 <body>
   <div id="bg">
     <script src="three.js"></script>
-    <script type="module" src="GLTFLoader.js"></script>
-    <script type="module" src="OrbitControls.js"></script>
+    <script type="module" src="js/GLTFLoader.js"></script>
+    <script type="module" src="js/OrbitControls.js"></script>
     <script type="module">
-      import {GLTFLoader} from './GLTFLoader.js';
-      import {OrbitControls} from './OrbitControls.js';
+      import {GLTFLoader} from 'js/GLTFLoader.js';
+      import {OrbitControls} from 'js/OrbitControls.js';
 
       var canvas = document.getElementById("bg")
       var scene = new THREE.Scene()
